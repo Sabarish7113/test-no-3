@@ -1,0 +1,85 @@
+img{
+    border-radius: 100%;
+    margin-left: 170px;
+    margin-top: 70px;
+    height:100px;
+    width:100px ;
+}
+
+.column {
+    width: 33%;
+    padding: 0 15px;
+  }
+  
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+}
+  .card {
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 500px;
+    background: white;
+    border-radius: 0px;
+    border: solid blueviolet 10px;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  .card:hover
+  {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-title {
+    text-align: center;
+    font: normal normal bold 30px/84px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+  }
+  .card-text {
+    text-align: center;
+    font: normal normal bold 24px/32px Segoe UI;
+    letter-spacing: 0px;
+    color: #4a4949;
+    opacity: 1;
+    padding: 5px;
+  }
+  form{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  label
+  {
+    font-size: x-large;
+  }
+  input
+  {
+    height: 2rem;
+    width: 20rem;
+  }
+  button
+  {
+    margin-top: 20px;
+    margin-left: 50px;
+    height:2rem ;
+    width:20rem ;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+  }
